@@ -1,54 +1,39 @@
 # Binary Search Tree Project
 
-This project implements a Binary Search Tree (BST) in TypeScript. It provides a class `BinarySearchTree` with methods for inserting, deleting, finding, and traversing nodes in the tree.
+This project implements a Binary Search Tree (BST) in TypeScript. The BST allows for efficient insertion, deletion, and searching of values.
 
 ## Project Structure
 
 ```
 bst-project
 ├── src
-│   ├── bst.ts          # Implementation of the Binary Search Tree
-│   └── types
-│       └── index.ts    # Type definitions for Node and BST
+│   ├── bst.ts          # Contains the BinarySearchTree class implementation
 ├── package.json        # npm configuration file
 ├── tsconfig.json       # TypeScript configuration file
 └── README.md           # Project documentation
 ```
 
+## Features
+
+- Insert values into the BST
+- Delete values from the BST
+- Find values in the BST
+- Traverse the BST in different orders:
+  - In-order
+  - Pre-order
+  - Post-order
+
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd bst-project
-   ```
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+To install the project dependencies, run:
+
+```
+npm install
+```
 
 ## Usage
 
-To use the Binary Search Tree implementation, you can import the `BinarySearchTree` class from `src/bst.ts` and create an instance of it. You can then use the provided methods to manipulate the tree.
-
-### Example
-
-```typescript
-import { BinarySearchTree } from './src/bst';
-
-const bst = new BinarySearchTree();
-bst.insert(10);
-bst.insert(5);
-bst.insert(15);
-console.log(bst.inOrderTraversal()); // Output: [5, 10, 15]
-```
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+To use the Binary Search Tree, import the `BinarySearchTree` class from `bst.ts` and create an instance of the tree. You can then use the provided methods to manipulate the tree.
 
 ## License
 
