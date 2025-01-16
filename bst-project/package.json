@@ -1,0 +1,22 @@
+{
+  "name": "bst-project",
+  "version": "1.0.0",
+  "description": "A simple implementation of a Binary Search Tree (BST) in TypeScript.",
+  "main": "src/bst.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bst.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "binary-search-tree",
+    "bst",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
